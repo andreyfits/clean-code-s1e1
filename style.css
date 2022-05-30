@@ -1,5 +1,6 @@
 /* Basic Style */
 .page {
+  box-sizing: border-box;
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -23,9 +24,9 @@
 
 @media (max-width: 768px) {
 
-    .header {
-        text-align: center;
-    }
+  .header {
+    text-align: center;
+  }
 
 }
 
@@ -161,6 +162,10 @@
 /* Edit Task */
 .todo {
   margin-top: -4px;
+}
+
+.item__text_display_none {
+  display: none;
 }
 
 .item__text_edit {
